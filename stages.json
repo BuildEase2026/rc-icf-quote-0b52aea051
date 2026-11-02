@@ -1,0 +1,32 @@
+{
+ "job": "Plot 1, The Rectory, Bates Hill, Ightham TN15 9BG",
+ "revision": "",
+ "stages": [
+  {
+   "n": 1,
+   "title": "Ground floor walls",
+   "desc": "Nudura 6in XR35, 6 courses (0 - 2,743) straight off the slab: the full ground-floor envelope with the two front bays, the porch, the rear kitchen bay and every door / window opening (bucks, end caps and lintel closures). Every form is the real Nudura block as it would be laid.",
+   "files": [
+    {
+     "glb": "stage-1.glb",
+     "part": null,
+     "label": null,
+     "bytes": 715696
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "title": "First floor walls and front gables",
+   "desc": "Courses 7 - 12 to the wall plate (5,486 above GF FFL) with the first-floor windows, and the two front gables raked at 45 degrees to the roof (left gable ICF over the bay only).",
+   "files": [
+    {
+     "glb": "stage-2.glb",
+     "part": null,
+     "label": null,
+     "bytes": 845384
+    }
+   ]
+  }
+ ]
+}

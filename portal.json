@@ -1,0 +1,246 @@
+{
+ "portal": "BuildEase ICF Project Environment",
+ "project": {
+  "client": "ICF Supplies Ltd (distributor) - Tom Barrett",
+  "job": "Plot 1, The Rectory, Bates Hill, Ightham TN15 9BG",
+  "number_prefix": "ES26-075",
+  "status": "QUOTATION",
+  "revision": "",
+  "model_title": "ES26-075 Plot 1, The Rectory, Bates Hill, Ightham TN15 9BG - Quotation"
+ },
+ "default_view": "stage-2",
+ "views": [
+  {
+   "id": "stage-1",
+   "kind": "stage",
+   "n": 1,
+   "title": "Ground floor walls",
+   "desc": "Nudura 6in XR35, 6 courses (0 - 2,743) straight off the slab: the full ground-floor envelope with the two front bays, the porch, the rear kitchen bay and every door / window opening (bucks, end caps and lintel closures). Every form is the real Nudura block as it would be laid.",
+   "focus": false
+  },
+  {
+   "id": "stage-2",
+   "kind": "stage",
+   "n": 2,
+   "title": "First floor walls and front gables",
+   "desc": "Courses 7 - 12 to the wall plate (5,486 above GF FFL) with the first-floor windows, and the two front gables raked at 45 degrees to the roof (left gable ICF over the bay only).",
+   "focus": false
+  },
+  {
+   "id": "elev-N",
+   "kind": "elevation",
+   "n": 2,
+   "title": "North elevation",
+   "dir": [
+    0.0,
+    0.12,
+    -1.0
+   ],
+   "desc": "Complete structure seen from the north."
+  },
+  {
+   "id": "elev-S",
+   "kind": "elevation",
+   "n": 2,
+   "title": "South elevation",
+   "dir": [
+    0.0,
+    0.12,
+    1.0
+   ],
+   "desc": "Complete structure seen from the south."
+  },
+  {
+   "id": "elev-E",
+   "kind": "elevation",
+   "n": 2,
+   "title": "East elevation",
+   "dir": [
+    1.0,
+    0.12,
+    0.0
+   ],
+   "desc": "Complete structure seen from the east."
+  },
+  {
+   "id": "elev-W",
+   "kind": "elevation",
+   "n": 2,
+   "title": "West elevation",
+   "dir": [
+    -1.0,
+    0.12,
+    0.0
+   ],
+   "desc": "Complete structure seen from the west."
+  }
+ ],
+ "stages": [
+  {
+   "n": 1,
+   "title": "Ground floor walls",
+   "desc": "Nudura 6in XR35, 6 courses (0 - 2,743) straight off the slab: the full ground-floor envelope with the two front bays, the porch, the rear kitchen bay and every door / window opening (bucks, end caps and lintel closures). Every form is the real Nudura block as it would be laid.",
+   "files": [
+    {
+     "glb": "stage-1.glb",
+     "part": null,
+     "label": null,
+     "bytes": 715696
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "title": "First floor walls and front gables",
+   "desc": "Courses 7 - 12 to the wall plate (5,486 above GF FFL) with the first-floor windows, and the two front gables raked at 45 degrees to the roof (left gable ICF over the bay only).",
+   "files": [
+    {
+     "glb": "stage-2.glb",
+     "part": null,
+     "label": null,
+     "bytes": 845384
+    }
+   ]
+  }
+ ],
+ "groups": [
+  {
+   "id": "quote",
+   "title": "Quotation",
+   "note": "The Distributor Bill of Materials (Nudura Proposal Generator distributor format: every form and accessory by level with your rate card - no material prices from us; BuildEase pre-cut service and pre-cut delivery as fixed charges; alignment by the distributor), the pallet stack sheets and the artic load plans.",
+   "zip": {
+    "file": "downloads/ES26-075 Quotation.zip",
+    "bytes": 467653,
+    "count": 3
+   },
+   "docs": [
+    {
+     "id": "ES26-075-LP-01",
+     "title": "Artic load plans - 2 loads",
+     "file": "docs/quote/ES26-075-LP-01 Artic load plans - 2 loads.pdf",
+     "pages": 2,
+     "thumb": "thumbs/ES26-075-LP-01.png",
+     "bytes": 34007,
+     "number": "ES26-075-LP-01",
+     "view": "stage-2",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-075-PS-01",
+     "title": "Pallet stack sheets - 17 pallets",
+     "file": "docs/quote/ES26-075-PS-01 Pallet stack sheets - 17 pallets.pdf",
+     "pages": 17,
+     "thumb": "thumbs/ES26-075-PS-01.png",
+     "bytes": 325979,
+     "number": "ES26-075-PS-01",
+     "view": "stage-2",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-075-QS-01",
+     "title": "Distributor BOM - Nudura 6in XR35",
+     "file": "docs/quote/ES26-075-QS-01 Distributor BOM - Nudura 6in XR35.pdf",
+     "pages": 7,
+     "thumb": "thumbs/ES26-075-QS-01.png",
+     "bytes": 280550,
+     "number": "ES26-075-QS-01",
+     "view": "stage-2",
+     "view_opts": {}
+    }
+   ],
+   "downloads": [
+    {
+     "file": "downloads/ES26-075 Distributor BOM - Plot 1, The Rectory, Ightham.xlsx",
+     "title": "Distributor BOM (Excel - enter your rates in the yellow cells; the totals and order form update) (0.1 MB)"
+    }
+   ]
+  },
+  {
+   "id": "icf",
+   "title": "ICF drawings",
+   "note": "The ICF general arrangement (course setting-out, corners, openings and end caps), the wall elevations and a section.",
+   "zip": {
+    "file": "downloads/ES26-075 ICF drawings.zip",
+    "bytes": 325965,
+    "count": 6
+   },
+   "docs": [
+    {
+     "id": "ES26-075-GA-01",
+     "title": "Ground Floor ICF General Arrangement",
+     "file": "docs/icf/ES26-075-GA-01 Ground Floor ICF General Arrangement.pdf",
+     "pages": 1,
+     "thumb": "thumbs/ES26-075-GA-01.png",
+     "bytes": 60609,
+     "number": "ES26-075-GA-01",
+     "view": "stage-1",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-075-GA-02",
+     "title": "First Floor ICF General Arrangement",
+     "file": "docs/icf/ES26-075-GA-02 First Floor ICF General Arrangement.pdf",
+     "pages": 1,
+     "thumb": "thumbs/ES26-075-GA-02.png",
+     "bytes": 60067,
+     "number": "ES26-075-GA-02",
+     "view": "stage-2",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-075-GA-03",
+     "title": "Front Gables ICF General Arrangement",
+     "file": "docs/icf/ES26-075-GA-03 Front Gables ICF General Arrangement.pdf",
+     "pages": 1,
+     "thumb": "thumbs/ES26-075-GA-03.png",
+     "bytes": 55227,
+     "number": "ES26-075-GA-03",
+     "view": "stage-2",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-075-EL-01",
+     "title": "Front and Rear Elevations",
+     "file": "docs/icf/ES26-075-EL-01 Front and Rear Elevations.pdf",
+     "pages": 1,
+     "thumb": "thumbs/ES26-075-EL-01.png",
+     "bytes": 90191,
+     "number": "ES26-075-EL-01",
+     "view": "elev-N",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-075-EL-02",
+     "title": "Side Elevations",
+     "file": "docs/icf/ES26-075-EL-02 Side Elevations.pdf",
+     "pages": 1,
+     "thumb": "thumbs/ES26-075-EL-02.png",
+     "bytes": 82317,
+     "number": "ES26-075-EL-02",
+     "view": "elev-E",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-075-SE-01",
+     "title": "Section A-A",
+     "file": "docs/icf/ES26-075-SE-01 Section A-A.pdf",
+     "pages": 1,
+     "thumb": "thumbs/ES26-075-SE-01.png",
+     "bytes": 58618,
+     "number": "ES26-075-SE-01",
+     "view": "stage-2",
+     "view_opts": {}
+    }
+   ]
+  }
+ ],
+ "focus": null,
+ "isolate_stages": false,
+ "toggles": [],
+ "download_all": {
+  "file": "downloads/ES26-075 Plot 1, The Rectory, Bates Hill, Ightham TN15 9BG - Quotation.zip",
+  "bytes": 829077,
+  "count": 10,
+  "title": "Download everything"
+ }
+}
