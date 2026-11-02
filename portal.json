@@ -8,28 +8,52 @@
   "revision": "",
   "model_title": "ES26-075 Plot 1, The Rectory, Bates Hill, Ightham TN15 9BG - Quotation"
  },
- "default_view": "stage-2",
+ "default_view": "stage-5",
  "views": [
   {
    "id": "stage-1",
    "kind": "stage",
    "n": 1,
-   "title": "Ground floor walls",
-   "desc": "Nudura 6in XR35, 6 courses (0 - 2,743) straight off the slab: the full ground-floor envelope with the two front bays, the porch, the rear kitchen bay and every door / window opening (bucks, end caps and lintel closures). Every form is the real Nudura block as it would be laid.",
+   "title": "Ground floor slab",
+   "desc": "The ground-bearing slab inside the ICF (100 screed / 100 PIR / 150 RC / 150 hardcore) with the thickened RC edge the ICF starts on - no footing blocks. Indicative: engineer / SAP to confirm.",
    "focus": false
   },
   {
    "id": "stage-2",
    "kind": "stage",
    "n": 2,
-   "title": "First floor walls and front gables",
-   "desc": "Courses 7 - 12 to the wall plate (5,486 above GF FFL) with the first-floor windows, and the two front gables raked at 45 degrees to the roof (left gable ICF over the bay only).",
+   "title": "Ground floor walls, windows, doors and partitions",
+   "desc": "Nudura 6in XR35, 6 courses (0 - 2,743) straight off the slab: the two front bays, the porch, the rear kitchen bay and every opening, with the dark grey casement windows and glazed doors fitted; the two load-bearing block walls (by others), the timber stud partitions, the chimney (by others) and the porch canopy.",
+   "focus": false
+  },
+  {
+   "id": "stage-3",
+   "kind": "stage",
+   "n": 3,
+   "title": "First floor, steels and stairs",
+   "desc": "PS10 metal-web joists spanning front to rear on ICF ledgers, block-wall hangers and four indicative steels over the bay mouths and the hall; the stair opening with its glass guard and the stacked timber stairs. Engineer to design.",
+   "focus": false
+  },
+  {
+   "id": "stage-4",
+   "kind": "stage",
+   "n": 4,
+   "title": "First floor walls, gables, partitions and the second floor",
+   "desc": "Courses 7 - 12 to the wall plate (5,486; the north wall stops at 10 courses for the lower north eaves), the right front gable raked at 45 degrees and the left gable to 15 courses under its half-hip; the first-floor windows, the stud partitions (three load-bearing) and the room-in-roof floor.",
+   "focus": false
+  },
+  {
+   "id": "stage-5",
+   "kind": "stage",
+   "n": 5,
+   "title": "Roof structure and the room in the roof",
+   "desc": "Cut roof, 45 degrees, plain tiles: C24 rafters @600, hips and valleys to a flat crown, the half-hipped left gable, the rear hipped dormer and ten trimmed VELUX roof windows; the second-floor stud partitions raked to the rafters. Indicative - engineer to design.",
    "focus": false
   },
   {
    "id": "elev-N",
    "kind": "elevation",
-   "n": 2,
+   "n": 5,
    "title": "North elevation",
    "dir": [
     0.0,
@@ -41,7 +65,7 @@
   {
    "id": "elev-S",
    "kind": "elevation",
-   "n": 2,
+   "n": 5,
    "title": "South elevation",
    "dir": [
     0.0,
@@ -53,7 +77,7 @@
   {
    "id": "elev-E",
    "kind": "elevation",
-   "n": 2,
+   "n": 5,
    "title": "East elevation",
    "dir": [
     1.0,
@@ -65,7 +89,7 @@
   {
    "id": "elev-W",
    "kind": "elevation",
-   "n": 2,
+   "n": 5,
    "title": "West elevation",
    "dir": [
     -1.0,
@@ -78,27 +102,66 @@
  "stages": [
   {
    "n": 1,
-   "title": "Ground floor walls",
-   "desc": "Nudura 6in XR35, 6 courses (0 - 2,743) straight off the slab: the full ground-floor envelope with the two front bays, the porch, the rear kitchen bay and every door / window opening (bucks, end caps and lintel closures). Every form is the real Nudura block as it would be laid.",
+   "title": "Ground floor slab",
+   "desc": "The ground-bearing slab inside the ICF (100 screed / 100 PIR / 150 RC / 150 hardcore) with the thickened RC edge the ICF starts on - no footing blocks. Indicative: engineer / SAP to confirm.",
    "files": [
     {
      "glb": "stage-1.glb",
      "part": null,
      "label": null,
-     "bytes": 715696
+     "bytes": 10908
     }
    ]
   },
   {
    "n": 2,
-   "title": "First floor walls and front gables",
-   "desc": "Courses 7 - 12 to the wall plate (5,486 above GF FFL) with the first-floor windows, and the two front gables raked at 45 degrees to the roof (left gable ICF over the bay only).",
+   "title": "Ground floor walls, windows, doors and partitions",
+   "desc": "Nudura 6in XR35, 6 courses (0 - 2,743) straight off the slab: the two front bays, the porch, the rear kitchen bay and every opening, with the dark grey casement windows and glazed doors fitted; the two load-bearing block walls (by others), the timber stud partitions, the chimney (by others) and the porch canopy.",
    "files": [
     {
      "glb": "stage-2.glb",
      "part": null,
      "label": null,
-     "bytes": 845384
+     "bytes": 795076
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "title": "First floor, steels and stairs",
+   "desc": "PS10 metal-web joists spanning front to rear on ICF ledgers, block-wall hangers and four indicative steels over the bay mouths and the hall; the stair opening with its glass guard and the stacked timber stairs. Engineer to design.",
+   "files": [
+    {
+     "glb": "stage-3.glb",
+     "part": null,
+     "label": null,
+     "bytes": 607344
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "title": "First floor walls, gables, partitions and the second floor",
+   "desc": "Courses 7 - 12 to the wall plate (5,486; the north wall stops at 10 courses for the lower north eaves), the right front gable raked at 45 degrees and the left gable to 15 courses under its half-hip; the first-floor windows, the stud partitions (three load-bearing) and the room-in-roof floor.",
+   "files": [
+    {
+     "glb": "stage-4.glb",
+     "part": null,
+     "label": null,
+     "bytes": 1251944
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "title": "Roof structure and the room in the roof",
+   "desc": "Cut roof, 45 degrees, plain tiles: C24 rafters @600, hips and valleys to a flat crown, the half-hipped left gable, the rear hipped dormer and ten trimmed VELUX roof windows; the second-floor stud partitions raked to the rafters. Indicative - engineer to design.",
+   "files": [
+    {
+     "glb": "stage-5.glb",
+     "part": null,
+     "label": null,
+     "bytes": 162472
     }
    ]
   }
@@ -110,7 +173,7 @@
    "note": "The Distributor Bill of Materials (Nudura Proposal Generator distributor format: every form and accessory by level with your rate card - no material prices from us; BuildEase pre-cut service and pre-cut delivery as fixed charges; alignment by the distributor), the pallet stack sheets and the artic load plans.",
    "zip": {
     "file": "downloads/ES26-075 Quotation.zip",
-    "bytes": 467653,
+    "bytes": 457313,
     "count": 3
    },
    "docs": [
@@ -120,9 +183,9 @@
      "file": "docs/quote/ES26-075-LP-01 Artic load plans - 2 loads.pdf",
      "pages": 2,
      "thumb": "thumbs/ES26-075-LP-01.png",
-     "bytes": 34007,
+     "bytes": 33938,
      "number": "ES26-075-LP-01",
-     "view": "stage-2",
+     "view": "stage-5",
      "view_opts": {}
     },
     {
@@ -131,9 +194,9 @@
      "file": "docs/quote/ES26-075-PS-01 Pallet stack sheets - 17 pallets.pdf",
      "pages": 17,
      "thumb": "thumbs/ES26-075-PS-01.png",
-     "bytes": 325979,
+     "bytes": 312995,
      "number": "ES26-075-PS-01",
-     "view": "stage-2",
+     "view": "stage-5",
      "view_opts": {}
     },
     {
@@ -142,9 +205,9 @@
      "file": "docs/quote/ES26-075-QS-01 Distributor BOM - Nudura 6in XR35.pdf",
      "pages": 7,
      "thumb": "thumbs/ES26-075-QS-01.png",
-     "bytes": 280550,
+     "bytes": 281353,
      "number": "ES26-075-QS-01",
-     "view": "stage-2",
+     "view": "stage-5",
      "view_opts": {}
     }
    ],
@@ -161,7 +224,7 @@
    "note": "The ICF general arrangement (course setting-out, corners, openings and end caps), the wall elevations and a section.",
    "zip": {
     "file": "downloads/ES26-075 ICF drawings.zip",
-    "bytes": 325965,
+    "bytes": 1391317,
     "count": 6
    },
    "docs": [
@@ -171,9 +234,9 @@
      "file": "docs/icf/ES26-075-GA-01 Ground Floor ICF General Arrangement.pdf",
      "pages": 1,
      "thumb": "thumbs/ES26-075-GA-01.png",
-     "bytes": 60609,
+     "bytes": 62942,
      "number": "ES26-075-GA-01",
-     "view": "stage-1",
+     "view": "stage-2",
      "view_opts": {}
     },
     {
@@ -182,9 +245,9 @@
      "file": "docs/icf/ES26-075-GA-02 First Floor ICF General Arrangement.pdf",
      "pages": 1,
      "thumb": "thumbs/ES26-075-GA-02.png",
-     "bytes": 60067,
+     "bytes": 60954,
      "number": "ES26-075-GA-02",
-     "view": "stage-2",
+     "view": "stage-4",
      "view_opts": {}
     },
     {
@@ -193,9 +256,9 @@
      "file": "docs/icf/ES26-075-GA-03 Front Gables ICF General Arrangement.pdf",
      "pages": 1,
      "thumb": "thumbs/ES26-075-GA-03.png",
-     "bytes": 55227,
+     "bytes": 56023,
      "number": "ES26-075-GA-03",
-     "view": "stage-2",
+     "view": "stage-4",
      "view_opts": {}
     },
     {
@@ -204,7 +267,7 @@
      "file": "docs/icf/ES26-075-EL-01 Front and Rear Elevations.pdf",
      "pages": 1,
      "thumb": "thumbs/ES26-075-EL-01.png",
-     "bytes": 90191,
+     "bytes": 766279,
      "number": "ES26-075-EL-01",
      "view": "elev-N",
      "view_opts": {}
@@ -215,7 +278,7 @@
      "file": "docs/icf/ES26-075-EL-02 Side Elevations.pdf",
      "pages": 1,
      "thumb": "thumbs/ES26-075-EL-02.png",
-     "bytes": 82317,
+     "bytes": 644204,
      "number": "ES26-075-EL-02",
      "view": "elev-E",
      "view_opts": {}
@@ -226,9 +289,98 @@
      "file": "docs/icf/ES26-075-SE-01 Section A-A.pdf",
      "pages": 1,
      "thumb": "thumbs/ES26-075-SE-01.png",
-     "bytes": 58618,
+     "bytes": 146186,
      "number": "ES26-075-SE-01",
+     "view": "stage-5",
+     "view_opts": {}
+    }
+   ]
+  },
+  {
+   "id": "timber",
+   "title": "Floors, roof and partitions",
+   "note": "The metal-web joist floors, the roof structure and the timber stud partitions - design assumptions for coordination only.",
+   "zip": {
+    "file": "downloads/ES26-075 Floors, roof and partitions.zip",
+    "bytes": 498957,
+    "count": 7
+   },
+   "docs": [
+    {
+     "id": "ES26-075-FL-01",
+     "title": "First Floor Structure",
+     "file": "docs/timber/ES26-075-FL-01 First Floor Structure.pdf",
+     "pages": 1,
+     "thumb": "thumbs/ES26-075-FL-01.png",
+     "bytes": 215441,
+     "number": "ES26-075-FL-01",
+     "view": "stage-3",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-075-FL-02",
+     "title": "Second Floor Structure",
+     "file": "docs/timber/ES26-075-FL-02 Second Floor Structure.pdf",
+     "pages": 1,
+     "thumb": "thumbs/ES26-075-FL-02.png",
+     "bytes": 71008,
+     "number": "ES26-075-FL-02",
+     "view": "stage-4",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-075-FL-03",
+     "title": "Floor Joist Profiles",
+     "file": "docs/timber/ES26-075-FL-03 Floor Joist Profiles.pdf",
+     "pages": 1,
+     "thumb": "thumbs/ES26-075-FL-03.png",
+     "bytes": 62973,
+     "number": "ES26-075-FL-03",
+     "view": "stage-3",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-075-RF-01",
+     "title": "Roof Structure",
+     "file": "docs/timber/ES26-075-RF-01 Roof Structure.pdf",
+     "pages": 1,
+     "thumb": "thumbs/ES26-075-RF-01.png",
+     "bytes": 73502,
+     "number": "ES26-075-RF-01",
+     "view": "stage-5",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-075-TF-01",
+     "title": "Ground Floor Timber Partitions",
+     "file": "docs/timber/ES26-075-TF-01 Ground Floor Timber Partitions.pdf",
+     "pages": 1,
+     "thumb": "thumbs/ES26-075-TF-01.png",
+     "bytes": 64429,
+     "number": "ES26-075-TF-01",
      "view": "stage-2",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-075-TF-02",
+     "title": "First Floor Timber Partitions",
+     "file": "docs/timber/ES26-075-TF-02 First Floor Timber Partitions.pdf",
+     "pages": 1,
+     "thumb": "thumbs/ES26-075-TF-02.png",
+     "bytes": 69047,
+     "number": "ES26-075-TF-02",
+     "view": "stage-4",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-075-TF-03",
+     "title": "Second Floor Timber Partitions",
+     "file": "docs/timber/ES26-075-TF-03 Second Floor Timber Partitions.pdf",
+     "pages": 1,
+     "thumb": "thumbs/ES26-075-TF-03.png",
+     "bytes": 64348,
+     "number": "ES26-075-TF-03",
+     "view": "stage-5",
      "view_opts": {}
     }
    ]
@@ -239,8 +391,8 @@
  "toggles": [],
  "download_all": {
   "file": "downloads/ES26-075 Plot 1, The Rectory, Bates Hill, Ightham TN15 9BG - Quotation.zip",
-  "bytes": 829077,
-  "count": 10,
+  "bytes": 2383396,
+  "count": 17,
   "title": "Download everything"
  }
 }

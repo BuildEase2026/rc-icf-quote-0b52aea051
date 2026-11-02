@@ -280,7 +280,7 @@ function renderHome() {
   let h = `<div class="hero"><div><div class="note" style="margin:0">Nudura ICF · BuildEase Design Suite</div>
     <h1>${esc(proj.job)}</h1></div><div class="facts">${facts.map(([k, v]) => `<span>${k} <b>${esc(v)}</b></span>`).join("")}</div>
     ${all ? `<div class="dl"><a class="big" href="${esc(all.file)}" download>&#8681; Download everything (ZIP, ${all.count} files, ${mb(all.bytes)})</a></div>` : ""}</div>
-    <h2>3D model</h2><p class="note">SketchUp model, stage by stage as it is built. Plot 1, The Rectory in Nudura 6in XR35: ground and first floor external walls to the wall plate with the two front gables, every form as it would be laid. The Distributor BOM carries a rate card for your own sale prices.</p>${modelCard()}`;
+    <h2>3D model</h2><p class="note">SketchUp model, stage by stage as it is built. Plot 1, The Rectory, the whole house stage by stage: the slab, the ground-floor walls, the first floor and stairs, the first-floor walls and gables, then the roof and the room in the roof. Every Nudura form is the real block as it would be laid; floors, roof, partitions and joinery are design assumptions. The Distributor BOM carries a rate card for your own sale prices.</p>${modelCard()}`;
   for (const g of P.groups) {
     if (!g.docs.length && !(g.downloads || []).length) continue;
     h += `${groupHead(g)}${panelIndex(g)}<div class="grid">${g.docs.map(d => docCard(g, d)).join("")}</div>${downloads(g)}`;
