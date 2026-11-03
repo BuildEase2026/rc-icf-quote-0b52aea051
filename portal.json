@@ -39,7 +39,7 @@
    "kind": "stage",
    "n": 4,
    "title": "First floor walls, gables, partitions and the second floor",
-   "desc": "Courses 7 - 12 to the wall plate (5,486; the north wall stops at 10 courses for the lower north eaves), the right front gable raked at 45 degrees and the left gable to 15 courses under its half-hip; the first-floor windows, the stud partitions (three load-bearing) and the room-in-roof floor.",
+   "desc": "Courses 7 - 12 to the wall plate (5,486; the north wall stops at 10 courses for the lower north eaves), the right front gable raked at 45 degrees and the left gable - over the bay, its returns and both set-back wings - raked to the verge and flat at 15 courses under its half-hip; the first-floor windows, the stud partitions (three load-bearing) and the room-in-roof floor.",
    "focus": false
   },
   {
@@ -142,13 +142,13 @@
   {
    "n": 4,
    "title": "First floor walls, gables, partitions and the second floor",
-   "desc": "Courses 7 - 12 to the wall plate (5,486; the north wall stops at 10 courses for the lower north eaves), the right front gable raked at 45 degrees and the left gable to 15 courses under its half-hip; the first-floor windows, the stud partitions (three load-bearing) and the room-in-roof floor.",
+   "desc": "Courses 7 - 12 to the wall plate (5,486; the north wall stops at 10 courses for the lower north eaves), the right front gable raked at 45 degrees and the left gable - over the bay, its returns and both set-back wings - raked to the verge and flat at 15 courses under its half-hip; the first-floor windows, the stud partitions (three load-bearing) and the room-in-roof floor.",
    "files": [
     {
      "glb": "stage-4.glb",
      "part": null,
      "label": null,
-     "bytes": 1251944
+     "bytes": 1311276
     }
    ]
   },
@@ -173,7 +173,7 @@
    "note": "The Distributor Bill of Materials (Nudura Proposal Generator distributor format: every form and accessory by level with your rate card - no material prices from us; BuildEase pre-cut service and pre-cut delivery as fixed charges; alignment by the distributor), the pallet stack sheets and the artic load plans.",
    "zip": {
     "file": "downloads/ES26-075 Quotation.zip",
-    "bytes": 457313,
+    "bytes": 468823,
     "count": 3
    },
    "docs": [
@@ -183,18 +183,18 @@
      "file": "docs/quote/ES26-075-LP-01 Artic load plans - 2 loads.pdf",
      "pages": 2,
      "thumb": "thumbs/ES26-075-LP-01.png",
-     "bytes": 33938,
+     "bytes": 34129,
      "number": "ES26-075-LP-01",
      "view": "stage-5",
      "view_opts": {}
     },
     {
      "id": "ES26-075-PS-01",
-     "title": "Pallet stack sheets - 17 pallets",
-     "file": "docs/quote/ES26-075-PS-01 Pallet stack sheets - 17 pallets.pdf",
-     "pages": 17,
+     "title": "Pallet stack sheets - 18 pallets",
+     "file": "docs/quote/ES26-075-PS-01 Pallet stack sheets - 18 pallets.pdf",
+     "pages": 18,
      "thumb": "thumbs/ES26-075-PS-01.png",
-     "bytes": 312995,
+     "bytes": 327280,
      "number": "ES26-075-PS-01",
      "view": "stage-5",
      "view_opts": {}
@@ -205,7 +205,7 @@
      "file": "docs/quote/ES26-075-QS-01 Distributor BOM - Nudura 6in XR35.pdf",
      "pages": 7,
      "thumb": "thumbs/ES26-075-QS-01.png",
-     "bytes": 281353,
+     "bytes": 281480,
      "number": "ES26-075-QS-01",
      "view": "stage-5",
      "view_opts": {}
@@ -224,7 +224,7 @@
    "note": "The ICF general arrangement (course setting-out, corners, openings and end caps), the wall elevations and a section.",
    "zip": {
     "file": "downloads/ES26-075 ICF drawings.zip",
-    "bytes": 1391317,
+    "bytes": 1395114,
     "count": 6
    },
    "docs": [
@@ -256,7 +256,7 @@
      "file": "docs/icf/ES26-075-GA-03 Front Gables ICF General Arrangement.pdf",
      "pages": 1,
      "thumb": "thumbs/ES26-075-GA-03.png",
-     "bytes": 56023,
+     "bytes": 56297,
      "number": "ES26-075-GA-03",
      "view": "stage-4",
      "view_opts": {}
@@ -267,7 +267,7 @@
      "file": "docs/icf/ES26-075-EL-01 Front and Rear Elevations.pdf",
      "pages": 1,
      "thumb": "thumbs/ES26-075-EL-01.png",
-     "bytes": 766279,
+     "bytes": 768248,
      "number": "ES26-075-EL-01",
      "view": "elev-N",
      "view_opts": {}
@@ -278,7 +278,7 @@
      "file": "docs/icf/ES26-075-EL-02 Side Elevations.pdf",
      "pages": 1,
      "thumb": "thumbs/ES26-075-EL-02.png",
-     "bytes": 644204,
+     "bytes": 646614,
      "number": "ES26-075-EL-02",
      "view": "elev-E",
      "view_opts": {}
@@ -289,7 +289,7 @@
      "file": "docs/icf/ES26-075-SE-01 Section A-A.pdf",
      "pages": 1,
      "thumb": "thumbs/ES26-075-SE-01.png",
-     "bytes": 146186,
+     "bytes": 146323,
      "number": "ES26-075-SE-01",
      "view": "stage-5",
      "view_opts": {}
@@ -391,7 +391,7 @@
  "toggles": [],
  "download_all": {
   "file": "downloads/ES26-075 Plot 1, The Rectory, Bates Hill, Ightham TN15 9BG - Quotation.zip",
-  "bytes": 2383396,
+  "bytes": 2398764,
   "count": 17,
   "title": "Download everything"
  }

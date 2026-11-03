@@ -44,13 +44,13 @@
   {
    "n": 4,
    "title": "First floor walls, gables, partitions and the second floor",
-   "desc": "Courses 7 - 12 to the wall plate (5,486; the north wall stops at 10 courses for the lower north eaves), the right front gable raked at 45 degrees and the left gable to 15 courses under its half-hip; the first-floor windows, the stud partitions (three load-bearing) and the room-in-roof floor.",
+   "desc": "Courses 7 - 12 to the wall plate (5,486; the north wall stops at 10 courses for the lower north eaves), the right front gable raked at 45 degrees and the left gable - over the bay, its returns and both set-back wings - raked to the verge and flat at 15 courses under its half-hip; the first-floor windows, the stud partitions (three load-bearing) and the room-in-roof floor.",
    "files": [
     {
      "glb": "stage-4.glb",
      "part": null,
      "label": null,
-     "bytes": 1251944
+     "bytes": 1311276
     }
    ]
   },
