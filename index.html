@@ -209,7 +209,7 @@ const ISO = !!P.isolate_stages;
 const inView = n => ISO ? n === view.n : n <= view.n;
 const proj = P.project;
 $("jobname").textContent = proj.job;
-$("status").textContent = `${proj.status || ""}${proj.revision ? " · " + proj.revision : ""}`;
+$("status").textContent = `${proj.status || ""} · ${proj.revision || ""}`;
 document.title = `${proj.job} · BuildEase ICF Project Environment`;
 const groupsById = Object.fromEntries(P.groups.map(g => [g.id, g]));
 const viewsById = Object.fromEntries(P.views.map(v => [v.id, v]));
@@ -275,12 +275,12 @@ function modelCard() {
 }
 function renderHome() {
   showPage("home");
-  const facts = [["Client", proj.client], ["Status", proj.status]].concat(proj.revision ? [["Revision", proj.revision]] : []);
+  const facts = [["Client", proj.client], ["Status", proj.status], ["Revision", proj.revision]];
   const all = P.download_all;
   let h = `<div class="hero"><div><div class="note" style="margin:0">Nudura ICF · BuildEase Design Suite</div>
     <h1>${esc(proj.job)}</h1></div><div class="facts">${facts.map(([k, v]) => `<span>${k} <b>${esc(v)}</b></span>`).join("")}</div>
     ${all ? `<div class="dl"><a class="big" href="${esc(all.file)}" download>&#8681; Download everything (ZIP, ${all.count} files, ${mb(all.bytes)})</a></div>` : ""}</div>
-    <h2>3D model</h2><p class="note">SketchUp model, stage by stage as it is built. Plot 1, The Rectory, the whole house stage by stage: the slab, the ground-floor walls, the first floor and stairs, the first-floor walls and gables, then the roof and the room in the roof. Every Nudura form is the real block as it would be laid; floors, roof, partitions and joinery are design assumptions. The Distributor BOM carries a rate card for your own sale prices.</p>${modelCard()}`;
+    <h2>3D model</h2><p class="note">SketchUp model, stage by stage as it is built. Plot 1, The Rectory, the whole house stage by stage: the slab, the ground-floor walls, the first floor and stairs, the first-floor walls and gables, then the roof and the room in the roof. Every Nudura form is the real block as it would be laid; floors, roof, partitions and joinery are design assumptions. The Distributor BOM carries a rate card for your own sale prices. REV A (05.11.26), revised to your review: door thresholds at FFL (slab + 225, inside panel cut away below the doors); the bays open on 3 sides - each face a void through the ICF, with SHS steel posts at the corners (by others, engineer); every wall fitted to Nudura Bond - no stack joints; an extra half course on the catslide wall, the rafters now seated on its wall plate (no gap); the left gable on the bay-front line as your model; VJCs, Form-Lock and foam to your rules, every accessory rounded to packs once for the whole build.</p>${modelCard()}`;
   for (const g of P.groups) {
     if (!g.docs.length && !(g.downloads || []).length) continue;
     h += `${groupHead(g)}${panelIndex(g)}<div class="grid">${g.docs.map(d => docCard(g, d)).join("")}</div>${downloads(g)}`;

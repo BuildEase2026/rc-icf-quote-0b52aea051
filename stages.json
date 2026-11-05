@@ -1,30 +1,30 @@
 {
  "job": "Plot 1, The Rectory, Bates Hill, Ightham TN15 9BG",
- "revision": "",
+ "revision": "A",
  "stages": [
   {
    "n": 1,
    "title": "Ground floor slab",
-   "desc": "The ground-bearing slab inside the ICF (100 screed / 100 PIR / 150 RC / 150 hardcore) with the thickened RC edge the ICF starts on - no footing blocks. Indicative: engineer / SAP to confirm.",
+   "desc": "The ground-bearing slab inside the ICF (75 screed / 150 PIR / 150 RC / 150 hardcore; GF FFL = slab + 225) with the thickened RC edge the ICF starts on - no footing blocks. Indicative: engineer / SAP to confirm.",
    "files": [
     {
      "glb": "stage-1.glb",
      "part": null,
      "label": null,
-     "bytes": 10908
+     "bytes": 11180
     }
    ]
   },
   {
    "n": 2,
    "title": "Ground floor walls, windows, doors and partitions",
-   "desc": "Nudura 6in XR35, 6 courses (0 - 2,743) straight off the slab: the two front bays, the porch, the rear kitchen bay and every opening, with the dark grey casement windows and glazed doors fitted; the two load-bearing block walls (by others), the timber stud partitions, the chimney (by others) and the porch canopy.",
+   "desc": "Nudura 6in XR35, 6 courses (0 - 2,743) straight off the slab, fitted to Nudura Bond with no stack joints: the two front bays and the rear kitchen bay open on 3 sides - voids through the ICF, glazed corner to corner, the ICF band over carried on SHS steel posts at the corners (by others), door thresholds at FFL (+225) and every opening, with the dark grey casement windows and glazed doors fitted; the two load-bearing block walls (by others), the timber stud partitions, the chimney (by others) and the porch canopy.",
    "files": [
     {
      "glb": "stage-2.glb",
      "part": null,
      "label": null,
-     "bytes": 795076
+     "bytes": 696608
     }
    ]
   },
@@ -37,20 +37,20 @@
      "glb": "stage-3.glb",
      "part": null,
      "label": null,
-     "bytes": 607344
+     "bytes": 595504
     }
    ]
   },
   {
    "n": 4,
    "title": "First floor walls, gables, partitions and the second floor",
-   "desc": "Courses 7 - 12 to the wall plate (5,486; the north wall stops at 10 courses for the lower north eaves), the right front gable raked at 45 degrees and the left gable - over the bay, its returns and both set-back wings - raked to the verge and flat at 15 courses under its half-hip; the first-floor windows, the stud partitions (three load-bearing) and the room-in-roof floor.",
+   "desc": "Courses 7 - 12 to the wall plate (5,486; the catslide wall stops at 10.5 courses under the low eaves), the right front gable raked at 45 degrees and the left gable on the bay-front line with returns over the wings (as ICF Supplies), raked to the verge and flat at 15 courses under its half-hip; the first-floor windows, the stud partitions (three load-bearing) and the room-in-roof floor.",
    "files": [
     {
      "glb": "stage-4.glb",
      "part": null,
      "label": null,
-     "bytes": 1311276
+     "bytes": 1209348
     }
    ]
   },
@@ -63,7 +63,7 @@
      "glb": "stage-5.glb",
      "part": null,
      "label": null,
-     "bytes": 162472
+     "bytes": 163832
     }
    ]
   }
